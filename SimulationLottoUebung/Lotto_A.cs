@@ -43,7 +43,7 @@ namespace SimulationLottoUebung
                 while (zahlVorhanden)
                 {
                     zahlVorhanden = false;
-                    tempZahl = rng.Next(1, 49);
+                    tempZahl = rng.Next(1, 50);
 
                     for (int j = 0; j < i; j++)
                     {
@@ -66,7 +66,7 @@ namespace SimulationLottoUebung
             for (int i= 0; i<zahlen.Length; i++)
             {
                 Console.WriteLine(zahlen[i]);
-                if(i==zahlen.Length-2)
+                if(i==(zahlen.Length-2))
                 {
                     Console.WriteLine("----Zusatzzahl-----");
                 }

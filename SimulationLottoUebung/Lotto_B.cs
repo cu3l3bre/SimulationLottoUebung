@@ -38,7 +38,7 @@ namespace SimulationLottoUebung
 
             while(anzahlZahlen < 6)
             {
-                tempZahl = rng.Next(1, 49);
+                tempZahl = rng.Next(1, 50);
 
                 if(!zahlen[tempZahl])
                 {
